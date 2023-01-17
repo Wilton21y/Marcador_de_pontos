@@ -28,6 +28,22 @@ button {
   top: 174px;
 }
 
+#play {
+  top: 13rem;
+  left: 6.5rem;
+  background: #05FF04;
+}
+
+#stop {
+  top: 13rem;
+  right: 6.5rem;
+  background: #FF0426
+}
+
+#zero {
+  top: 13rem;
+}
+
 .main {
   width: 400px;
   height: 200px;
