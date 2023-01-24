@@ -37,6 +37,16 @@ button {
   top: 174px;
 }
 
+#m1a {
+ top: -2rem;
+ left: 45px;
+}
+
+#m1v {
+ top:-2rem;
+ right: 45px;
+}
+
 #play {
   top: 13rem;
   left: 6.5rem;
@@ -92,6 +102,11 @@ button {
   height: 150px;
 }
 
+#score{ 
+  position: absolute;
+  top: 15rem;
+  transform: 0.2s scale(1.1);
+}
 
 
 /*CLASS GERAL*/
@@ -99,4 +114,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.anima {
+ animation: destac 2s infinite
+}
+
+@keyframes destac {
+ 0%{
+  color: #fff;
+ }
+ 50%{
+  color: #FF0404;
+ }
+ 100%{
+  color:#fff;
+ }
 }
