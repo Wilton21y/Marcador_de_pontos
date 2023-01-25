@@ -102,10 +102,11 @@ button {
   height: 150px;
 }
 
-#score{ 
+Header #score{ 
   position: absolute;
-  top: 15rem;
+  top: 0;
   transform: 0.2s scale(1.1);
+  Text-align: center;
 }
 
 
