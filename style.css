@@ -102,7 +102,7 @@ button {
   height: 150px;
 }
 
-Header #score{ 
+header #score{ 
   position: absolute;
   top: 0;
   transform: 0.2s scale(1.1);
